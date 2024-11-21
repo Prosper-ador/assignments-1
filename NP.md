@@ -8,8 +8,8 @@
 8-   
 9- B   
 10- cat /var/log/syslog | grep error |  wc -l  
-11- A hard link is a special  file which points directly to the inode of the original file on the disk. Deleting one of the hardlinks of a file does not delete the actual data until all the hardlinks are deleted and can not be  created accross different filesystems as symbolic links while symbolic links are special files that point to the path of another file.If the original file is deleted the link becomes broken as it points to a location that is o more.
-12- cd /etc && find *.conf -ctime 7  
+11- A hard link is a special  file which points directly to the inode of the original file on the disk. Deleting one of the hardlinks of a file does not delete the actual data until all the hardlinks are deleted and can not be  created accross different filesystems as symbolic links while symbolic links are special files that point to the path of another file.If the original file is deleted the link becomes broken as it points to a location that is o more.  
+12- cd /etc && find *.conf -ctime 7     
 13- The cron daemon runs continuosly and wakes up every minute to check a set of tables known as crontabs to find tasks to execute.   
 14- B  
 15- blkid     
